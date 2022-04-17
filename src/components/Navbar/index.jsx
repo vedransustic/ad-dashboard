@@ -16,7 +16,6 @@ const Navbar = () => {
           <input type="text" placeholder="Search..." />
           <SearchOutlinedIcon />
         </div>
-
         <ul>
           <li>
             <LanguageOutlinedIcon className="icon" />
