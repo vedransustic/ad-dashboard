@@ -1,8 +1,9 @@
 import React from "react";
 import { widgetData } from "../../constant";
 import "./index.scss";
-import { Sidebar, Navbar, Chart } from "../../components";
+import { Sidebar, Navbar, Chart, Title } from "../../components";
 import { Featured, Widget } from "../../containers";
+import ListTable from "../../containers/ListTable";
 
 const Home = () => {
   return (
@@ -18,6 +19,10 @@ const Home = () => {
         <div className="charts">
           <Featured />
           <Chart />
+        </div>
+        <div className="list-container">
+          <Title className="list-title" text="Lastest Transactions" />
+          <ListTable />
         </div>
       </div>
     </div>
