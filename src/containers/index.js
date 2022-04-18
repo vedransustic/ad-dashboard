@@ -1,3 +1,4 @@
 import Widget from "./Widget";
+import Featured from "./Featured";
 
-export { Widget };
+export { Widget, Featured };

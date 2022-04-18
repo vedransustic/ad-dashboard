@@ -26,25 +26,5 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
-
-    .widget-result {
-      color: green;
-      display: flex;
-      align-items: center;
-
-      span {
-        display: flex;
-        align-items: center;
-        font-size: large;
-      }
-
-      .up {
-        color: green;
-      }
-
-      .down {
-        color: red;
-      }
-    }
   }
 }

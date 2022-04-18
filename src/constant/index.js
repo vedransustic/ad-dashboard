@@ -49,3 +49,51 @@ export const widgetData = [
     color: "#1727AE",
   },
 ];
+
+export const chartData = [
+  {
+    name: "January",
+    netRevenue: 4000,
+    income: 2400,
+  },
+  {
+    name: "February",
+    netRevenue: 3000,
+    income: 1398,
+  },
+  {
+    name: "March",
+    netRevenue: 2000,
+    income: 9800,
+  },
+  {
+    name: "April",
+    netRevenue: 2780,
+    income: 3908,
+  },
+  {
+    name: "May",
+    netRevenue: 1890,
+    income: 4800,
+  },
+  {
+    name: "June",
+    netRevenue: 2390,
+    income: 3800,
+  },
+  {
+    name: "July",
+    netRevenue: 2490,
+    income: 3300,
+  },
+  {
+    name: "August",
+    netRevenue: 1890,
+    income: 2340,
+  },
+  {
+    name: "September",
+    netRevenue: 2390,
+    income: 3400,
+  },
+];

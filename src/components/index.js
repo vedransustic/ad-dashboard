@@ -1,7 +1,9 @@
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import Title from "./Title";
-import WidgetNumber from "./WidgetNumber";
+import NumberMoney from "./NumberMoney";
 import Icon from "./Icon";
+import Chart from "./Chart";
+import FeaturedItem from "./FeaturedItem";
 
-export { Navbar, Sidebar, Title, WidgetNumber, Icon };
+export { Navbar, Sidebar, Title, NumberMoney, Icon, Chart, FeaturedItem };

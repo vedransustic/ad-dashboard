@@ -1,8 +1,8 @@
 import React from "react";
 import { widgetData } from "../../constant";
 import "./index.scss";
-import { Sidebar, Navbar } from "../../components";
-import { Widget } from "../../containers";
+import { Sidebar, Navbar, Chart } from "../../components";
+import { Featured, Widget } from "../../containers";
 
 const Home = () => {
   return (
@@ -14,6 +14,10 @@ const Home = () => {
           {widgetData.map((item, idx) => {
             return <Widget key={idx} {...item} />;
           })}
+        </div>
+        <div className="charts">
+          <Featured />
+          <Chart />
         </div>
       </div>
     </div>
