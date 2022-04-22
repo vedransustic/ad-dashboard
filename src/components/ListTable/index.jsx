@@ -7,9 +7,8 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import "./index.scss";
-import { tableRows } from "../../constant";
 
-const ListTable = () => {
+const ListTable = ({ data }) => {
   return (
     <TableContainer component={Paper} className="table">
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -25,7 +24,7 @@ const ListTable = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {tableRows.map((row) => (
+          {data.map((row) => (
             <TableRow key={row.id}>
               <TableCell className="tableCell">{row.id}</TableCell>
               <TableCell className="tableCell">

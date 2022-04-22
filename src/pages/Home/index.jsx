@@ -3,7 +3,7 @@ import { widgetData } from "../../constant";
 import "./index.scss";
 import { Sidebar, Navbar, Chart, Title } from "../../components";
 import { Featured, Widget } from "../../containers";
-import ListTable from "../../containers/ListTable";
+import ListTable from "../../components/ListTable";
 
 const Home = () => {
   return (
