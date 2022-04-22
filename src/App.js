@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Home, List, Login, New, Single, Users } from "./pages";
-import { tableRows } from "./constant";
+import { productRows } from "./constant";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path="new" element={<New />} />
         </Route>
         <Route path="products">
-          <Route index element={<List data={tableRows} />} />
+          <Route index element={<List data={productRows} />} />
           <Route path=":productId" element={<Single />} />
           <Route path="new" element={<New />} />
         </Route>

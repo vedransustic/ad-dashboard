@@ -1,7 +1,7 @@
 import React from "react";
 import DataTable from "../../components/DataTable";
 import Navbar from "../../components/Navbar";
-import { ListTable, Sidebar } from "../../components";
+import { Sidebar } from "../../components";
 
 const Users = () => {
   return (

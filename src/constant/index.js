@@ -98,7 +98,7 @@ export const chartData = [
   },
 ];
 
-export const tableRows = [
+export const productRows = [
   {
     id: 1143155,
     product: "Acer Nitro 5",

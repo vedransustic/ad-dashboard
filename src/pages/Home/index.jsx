@@ -1,5 +1,5 @@
 import React from "react";
-import { widgetData } from "../../constant";
+import { productRows, widgetData } from "../../constant";
 import "./index.scss";
 import { Sidebar, Navbar, Chart, Title } from "../../components";
 import { Featured, Widget } from "../../containers";
@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <div className="list-container">
           <Title className="list-title" text="Lastest Transactions" />
-          <ListTable />
+          <ListTable data={productRows} />
         </div>
       </div>
     </div>
